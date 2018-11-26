@@ -24,18 +24,4 @@ def getRate():
         except:
             print("Invalid number")
 
-# try:
-#     hours = float(input("Enter in hours: "))
-# except:
-#     print("Error, you get no hours!")
-#     hours = 0
-
-# hours = getHours()
-
-# try:
-#     rate = float(input("Enter in rate: "))
-# except:
-#     print("Error, you now work for free")
-#     rate = 0
-
 print(computepay(getHours(), getRate()))
